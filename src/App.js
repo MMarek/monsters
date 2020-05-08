@@ -34,7 +34,7 @@ class App extends Component {
                     placeholder='Search Monster'
                     chandleChange={e => {
                         this.setState({searchField: e.target.value})
-                    }}
+                     }}
                 />
                 <CardList monsters={filteredMonsters}/>
             </div>
